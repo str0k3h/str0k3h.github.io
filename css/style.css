@@ -1,0 +1,98 @@
+/* coded by str0k3h */
+body{
+	background-image: url("../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:fixed;
+    height: 100%;
+} 
+
+
+.logomain img{
+    height: 20%;
+    width: auto;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.sectext{
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00e600;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+     text-shadow: 2px 2px 9px black;
+  
+}
+
+.footert{
+    vertical-align: baseline;
+}
+
+.stats{
+    position: fixed;
+     transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px; 
+    text-shadow: 2px 2px 9px black;
+    border: 5px solid green ;
+    background-color:rgba(0, 255, 0, 0.2);
+}
+
+
+
+
+.contactinfo{
+position: fixed;
+  align-content: center;
+left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+
+}
+
+.contactinfo img{
+    left: 50%;
+    align-content: center;
+     margin-left: auto;
+  margin-right: auto;
+    height: 40px;
+    width: auto;
+    margin: 6px;
+}
+
+/*scrollbar code from w3schools.com*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
